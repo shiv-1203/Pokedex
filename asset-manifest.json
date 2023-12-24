@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Pokedex/static/css/main.1a732055.css",
+    "main.js": "/Pokedex/static/js/main.269f20a4.js",
+    "static/js/787.8df3cf41.chunk.js": "/Pokedex/static/js/787.8df3cf41.chunk.js",
+    "static/media/AllInOne.jpg": "/Pokedex/static/media/AllInOne.c6ab8843166645d9a9f2.jpg",
+    "static/media/pokemon_Logo.png": "/Pokedex/static/media/pokemon_Logo.3e30f470d65a398d77bd.png",
+    "static/media/allPokemon.png": "/Pokedex/static/media/allPokemon.9666c321054d3912583e.png",
+    "index.html": "/Pokedex/index.html",
+    "main.1a732055.css.map": "/Pokedex/static/css/main.1a732055.css.map",
+    "main.269f20a4.js.map": "/Pokedex/static/js/main.269f20a4.js.map",
+    "787.8df3cf41.chunk.js.map": "/Pokedex/static/js/787.8df3cf41.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a732055.css",
+    "static/js/main.269f20a4.js"
+  ]
+}
