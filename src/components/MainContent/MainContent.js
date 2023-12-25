@@ -52,11 +52,11 @@ const MainContent = () => {
         }
     };
 
-    const handleSelectChange = (selectedOption) => {
+    const handleSelectChange = async (selectedOption) => {
         if (selectedOption) {
             setSelectedValue(selectedOption.value);
             if (selectedOption.value === 'All Types') {
-                fetch(`https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0`)
+                await fetch(`https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0`)
                     .then(response => response.json())
                     .then(pokemonData => setNameData(Object.values(pokemonData.results).map((item) => ({
                         label: item.name,
@@ -69,7 +69,7 @@ const MainContent = () => {
                 setBoolValue(false);
             }
             else {
-                fetch(`https://pokeapi.co/api/v2/type/${selectedOption.value.toLowerCase()}`)
+                await fetch(`https://pokeapi.co/api/v2/type/${selectedOption.value.toLowerCase()}`)
                     .then(response => response.json())
                     .then(pokemonData => setNameData(Object.values(pokemonData.pokemon).map((item) => ({
                         label: item.pokemon.name,
@@ -139,9 +139,9 @@ const MainContent = () => {
         }),
     };
 
-    const fetchBasedOnSearch = (value) => {
+    const fetchBasedOnSearch = async (value) => {
         if (value !== 0 && value !== undefined && value !== null) {
-            fetch(`https://pokeapi.co/api/v2/pokemon/${value.toLowerCase()}`)
+            await fetch(`https://pokeapi.co/api/v2/pokemon/${value.toLowerCase()}`)
                 .then(response => response.json())
                 .then(pokemonData => {
                     if(pokemonData!==undefined){
@@ -173,8 +173,8 @@ const MainContent = () => {
 
     useEffect(() => {
 
-        const fetchTypes = () => {
-            fetch(`https://pokeapi.co/api/v2/type/`)
+        const fetchTypes = async () => {
+            await fetch(`https://pokeapi.co/api/v2/type/`)
                 .then(response => response.json())
                 .then(types => setDropDownOptions(types.results))
                 .catch(error => console.error('Error fetching types:', error));
@@ -201,13 +201,13 @@ const MainContent = () => {
         }
 
         if (nameData !== null) {
-            nameData.forEach((name, index) => {
-                fetch(`https://pokeapi.co/api/v2/pokemon/${name.label}`)
+            nameData.forEach(async (name, index) => {
+                await fetch(`https://pokeapi.co/api/v2/pokemon/${name.label}`)
                     .then(response => response.json())
                     .then(pokemonData => {
                         setCardData((prevData) => [...prevData, pokemonData]);
                     })
-                    .catch(error => console.error('Error fetching data using name or id:', error));
+                    // .catch(error => console.error('Error fetching data using name or id:', error));
             });
 
         }
