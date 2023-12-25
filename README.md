@@ -36,14 +36,19 @@ Welcome to the Pokedex React App! This project is a dynamic exploration of the P
     git clone https://github.com/shiv-1203/Pokedex.git
     ```
 2. Install dependencies.
+
     ```bash
     cd pokedex-react-app
-    ```
-    ```bash
     npm install react-spinners react-sweetalert2 react-select 
     ```
-3. Run the app.
+    
+4. Run the app.
     ```bash
     npm start
     ```
+**Note:** If you plan to host your frontend app on GitHub Pages, you may need to install `gh-pages` as well:
+    ```bash
+    npm install gh-pages --save-dev
+    ```
+    
 Explore the captivating world of Pokemon with our feature-rich Pokedex app! 🚀
