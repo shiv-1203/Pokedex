@@ -63,11 +63,11 @@ Visit the [Pokedex_App](https://shiv-1203.github.io/Pokedex/) hosted on GitHub P
 
     - This initial loading phase ensures that the application retrieves the necessary Pokemon data for an immersive experience.
 
-3. Navigate to the **"Type Filter"** tab in the top right corner. Select a Pokemon type, and wait for the results to load. The total count of results for the selected type out of the total 1302 Pokemon will be displayed. 🧭
+3. Navigate to the **"Type Filter"** tab in the top right corner. **Select a Pokemon type**, and wait for the results to load. The total count of results for the selected type out of the total 1302 Pokemon will be displayed. 🧭
 
     - The **"Type Filter"** allows you to filter and explore Pokemon based on their types. The live count keeps you informed about the number of Pokemon available for the selected type.
 
-4. Use the **"Search"** tab to enter a correct Pokemon ID or name. The results, along with a count of 1, will be displayed. For incorrect or non-existent IDs or names, the result count will be 0. 🔍
+4. Use the **"Search"** tab to enter a correct **Pokemon ID or name**. The results, along with a **count of 1**, will be displayed. For **incorrect or non-existent IDs or names**, the result **count will be 0**. 🔍
 
     - The **"Search"** functionality provides a quick way to access specific Pokemon by their ID or name, with real-time result feedback.
 
