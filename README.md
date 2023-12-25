@@ -46,7 +46,7 @@ Welcome to the Pokedex React App! This project is a dynamic exploration of the P
     ```bash
     npm start
     ```
-**Note:** If you plan to host your frontend app on GitHub Pages, you may need to install `gh-pages` as well:
+**Note:** If you plan to host your frontend app on GitHub Pages, you may need to install `gh-pages` as well.
     ```bash
     npm install gh-pages --save-dev
     ```
