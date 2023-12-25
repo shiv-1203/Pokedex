@@ -1,7 +1,7 @@
 # Description of Pokedex Application
 Introducing an innovative React.js Pokedex web application that brings the Pokemon universe to life! Seamlessly integrating the powerful [Pokemon API](https://pokeapi.co/), this cutting-edge platform offers an intuitive and captivating experience for users to explore, retrieve, and analyze Pokemon statistics. The user-friendly interface enhances the journey, allowing enthusiasts to dive into the vast world of Pokemon effortlessly.
 
-For a visually stunning experience, each Pokemon comes to life with dynamic images sourced from [[Pokemon_Image](https://unpkg.com/pokeapi-sprites@2.0.2/sprites/pokemon/other/dream-world/id.svg)](https://unpkg.com/pokeapi-sprites@2.0.2/sprites/pokemon/other/dream-world/id.svg), where the Pokemon ID is dynamically replaced with the respective Pokemon's unique identifier.
+For a visually stunning experience, each Pokemon comes to life with dynamic images sourced from [https://unpkg.com/pokeapi-sprites@2.0.2/sprites/pokemon/other/dream-world/id.svg](https://unpkg.com/pokeapi-sprites@2.0.2/sprites/pokemon/other/dream-world/id.svg), where the Pokemon ID is dynamically replaced with the respective Pokemon's unique identifier.
 
 Embark on your Pokemon adventure now and discover the magic at [Pokedex_App](https://shiv-1203.github.io/Pokedex/).
 
@@ -9,7 +9,7 @@ Embark on your Pokemon adventure now and discover the magic at [Pokedex_App](htt
 
 ## Project Description
 ![image](https://github.com/shiv-1203/Pokedex/assets/105982373/ad9db78e-7e87-4660-b7b3-f46010038604)
-Welcome to the Pokedex React App! This project is a dynamic exploration of the Pokemon universe, crafted using React.js and powered by the Pokemon API. The visual representation of the final output can be found in the provided image.
+Welcome to the Pokedex React App! 🌐 This project is a dynamic exploration of the Pokemon universe, crafted using React.js and powered by the Pokemon API. The visual representation of the final output can be found in the provided image.
 
 ### Features and Components
 
@@ -52,3 +52,27 @@ Welcome to the Pokedex React App! This project is a dynamic exploration of the P
 **Note:** If you plan to host your frontend app on GitHub Pages, only then you need to install `gh-pages`.
     
 Explore the captivating world of Pokemon with our feature-rich Pokedex app! 🚀
+
+Visit the [Pokedex_App](https://shiv-1203.github.io/Pokedex/) hosted on GitHub Pages.
+
+## Navigation and Execution
+
+1. Click on the [Pokedex_App](https://shiv-1203.github.io/Pokedex/) to explore the live application. 🖱️
+
+2. Upon clicking the link, a **spinner** will load until the data is fetched. Please wait for a couple of minutes for the frontend to load as it fetches data from one or more API sources. ⏳
+
+    - This initial loading phase ensures that the application retrieves the necessary Pokemon data for an immersive experience.
+
+3. Navigate to the **"Type Filter"** tab in the top right corner. Select a Pokemon type, and wait for the results to load. The total count of results for the selected type out of the total 1302 Pokemon will be displayed. 🧭
+
+    - The **"Type Filter"** allows you to filter and explore Pokemon based on their types. The live count keeps you informed about the number of Pokemon available for the selected type.
+
+4. Use the **"Search"** tab to enter a correct Pokemon ID or name. The results, along with a count of 1, will be displayed. For incorrect or non-existent IDs or names, the result count will be 0. 🔍
+
+    - The **"Search"** functionality provides a quick way to access specific Pokemon by their ID or name, with real-time result feedback.
+
+5. Note that keeping the search bar empty and pressing the search button won't work. Make changes to the search bar content for the button to be clickable. ⚠️
+
+    - This ensures intentional searches, preventing accidental or empty queries.
+
+Feel free to explore the project and reach out if you have any questions or feedback. Happy exploring! 🎉
