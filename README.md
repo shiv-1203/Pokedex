@@ -71,7 +71,27 @@ Visit the [Pokedex_App](https://shiv-1203.github.io/Pokedex/) hosted on GitHub P
 
     - The **"Search"** functionality provides a quick way to access specific Pokemon by their ID or name, with real-time result feedback.
 
-5. Note that keeping the search bar empty and pressing the search button won't work. Make changes to the search bar content for the button to be clickable. ⚠️
+4. Each Pokemon card will display information in the following format:
+    - **Top Right:** #Id 🆔
+    - **Top Left Corner:** Pokemon Name 🌐
+    - **Bottom Left Corner (Black Box):** Pokemon Type 📦
+    - **Bottom Right:** **"Show Stats"** Button 📊
+
+5. Click on the **"Show Stats"** button on each Pokemon card to display detailed statistics for each Pokemon:
+    - **Left Column:** Pokemon Image 🖼️
+    - **Right Column:**
+        - HP
+        - Attack
+        - Defense
+        - Special Attack
+        - Special Defense
+        - Speed
+          
+![image](https://github.com/shiv-1203/Pokedex/assets/105982373/f4c0af9d-9e15-4f89-9fe8-9a598f9106c8)
+
+    - This image provides a comprehensive and a visual overview of each Pokemon's stats.
+
+6. Note that keeping the search bar empty and pressing the search button won't work. Make changes to the search bar content for the button to be clickable. ⚠️
 
     - This ensures intentional searches, preventing accidental or empty queries.
 
