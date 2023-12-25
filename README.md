@@ -3,7 +3,7 @@ Introducing an innovative React.js Pokedex web application that brings the Pokem
 
 For a visually stunning experience, each Pokemon comes to life with dynamic images sourced from [[Pokemon_Image](https://unpkg.com/pokeapi-sprites@2.0.2/sprites/pokemon/other/dream-world/id.svg)](https://unpkg.com/pokeapi-sprites@2.0.2/sprites/pokemon/other/dream-world/id.svg), where the Pokemon ID is dynamically replaced with the respective Pokemon's unique identifier.
 
-Embark on your Pokemon adventure now and discover the magic at [Pokedex](https://shiv-1203.github.io/Pokedex/).
+Embark on your Pokemon adventure now and discover the magic at [Pokedex_App](https://shiv-1203.github.io/Pokedex/).
 
 **Note:** While running this application through the provided link, please be aware that there might be a delay as the frontend makes several API calls. Kindly be patient and allow sufficient time for the page to completely load. It just takes a couple of minutes. Your understanding is appreciated.
 
@@ -38,6 +38,8 @@ Welcome to the Pokedex React App! This project is a dynamic exploration of the P
 2. Install dependencies.
     ```bash
     cd pokedex-react-app
+    ```
+    ```bash
     npm install react-spinners react-sweetalert2 react-select 
     ```
 3. Run the app.
