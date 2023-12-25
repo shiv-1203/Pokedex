@@ -87,10 +87,10 @@ Visit the [Pokedex_App](https://shiv-1203.github.io/Pokedex/) hosted on GitHub P
         - Special Attack
         - Special Defense
         - Speed
+
+    - This image provides a comprehensive and a visual overview of each Pokemon's stats.
           
 ![image](https://github.com/shiv-1203/Pokedex/assets/105982373/f4c0af9d-9e15-4f89-9fe8-9a598f9106c8)
-
-    This image provides a comprehensive and a visual overview of each Pokemon's stats.
 
 6. Note that keeping the search bar empty and pressing the search button won't work. Make changes to the search bar content for the button to be clickable. ⚠️
 
